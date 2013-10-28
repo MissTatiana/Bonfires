@@ -17,10 +17,10 @@
 		<a href="#"><img src="images/logo.png" alt="Bonfires Logo"/></a>
 		
 		<ul id="headerNav">
-			<a href="#"><li>Home</li></a>
-			<a href="#"><li>Menu</li></a>
-			<a href="#"><li>Specials</li></a>
-			<a href="#"><li>Contact</li></a>
+			<a href="?action=home"><li>Home</li></a>
+			<a href="?action=menu"><li>Menu</li></a>
+			<a href="?action=specials"><li>Specials</li></a>
+			<a href="?action=contact"><li>Contact</li></a>
 		</ul><!-- headerNav -->
 		
 	</div><!-- header -->
