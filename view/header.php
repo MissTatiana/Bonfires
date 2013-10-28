@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8" />
 	<title>Bonefires in Ovideo</title>
-	<link rel="stylesheet" type="text/css" href="main.css">	
+	<link rel="stylesheet" type="text/css" href="css/main.css">	
 </head>
 
 <body>
@@ -14,13 +14,13 @@
 	<div id="header">
 		
 		<!-- logo -->
-		<a href="#"><img src="images/logo.png" alt="Bonfires Logo"/></a>
+		<a href="?action=home"><img src="images/logo.png" alt="Bonfires Logo"/></a>
 		
 		<ul id="headerNav">
-			<a href="?action=home"><li>Home</li></a>
-			<a href="?action=menu"><li>Menu</li></a>
-			<a href="?action=specials"><li>Specials</li></a>
-			<a href="?action=contact"><li>Contact</li></a>
+			<li><a href="?action=home">Home</a></li>
+			<li><a href="?action=menu">Menu</a></li>
+			<li><a href="?action=specials">Specials</a></li>
+			<li><a href="?action=contact">Contact</a></li>
 		</ul><!-- headerNav -->
 		
 	</div><!-- header -->
