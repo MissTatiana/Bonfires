@@ -14,7 +14,7 @@
 	<div id="header">
 		
 		<!-- logo -->
-		<a href="?action=home"><img id="logo" src="images/logo.png" alt="Bonfires Logo" width="360" height="60" /></a>
+		<a href="?action=home"><img id="logo" src="images/logo.png" alt="Bonfires Logo" width="370" height="70" /></a>
 		
 		<ul id="headerNav">
 			<li><a href="?action=home">Home</a></li>

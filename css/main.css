@@ -187,6 +187,27 @@ a {
 	margin-right: 20px;
 }
 
+/*	=	=	=	=	Third Content	=	=	=	=	*/
+
+#thirdContent {
+	margin-top: 50px;
+}
+
+.secondaryInfo {
+	margin-top: 30px;
+}
+
+#about {
+	float: left;
+	width: 520px;
+	margin-right: 20px;
+}
+
+#bbq {
+	float: left;
+	width: 520px;
+	margin-right: 20px;
+}
 
 
 
