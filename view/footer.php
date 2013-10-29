@@ -1,27 +1,29 @@
 <div id="footer">
 		
-	<ul id="footerNav">
-		<a href="?action=home"><li>Home</li></a>
-		<a href="?action=menu"><li>Menu</li></a>
-		<a href="?action=specials"><li>Specials</li></a>
-		<a href="?action=contact"><li>Contact</li></a>
-	</ul><!-- footerNav -->
+	<div id="foot">
+		<ul id="footerNav">
+			<li><a href="?action=home">Home</a></li>
+			<li><a href="?action=menu">Menu</a></li>
+			<li><a href="?action=specials">Specials</a></li>
+			<li><a href="?action=contact">Contact</a></li>
+		</ul><!-- footerNav -->
+	</div><!-- foot -->
 	
-	<div id="address">
+	<div id="addressFooter">
 		<h3>Bonfires in Oviedo</h3>
 		<p>
 			1340 Alafaya Trail<br />
 			Ovideo Fl, 32765<br />
 			(407) 366 - 4073<br />
 		</p>
-	</div><!-- address -->
+	</div><!-- addressFooter -->
 	
 	<div id="hours">
 		<p>Monday-Thursday - 11am-1am</p>
 		<p>Friday - 11am-2am</p>
 		<p>Saturday - 7am-2am</p>
 		<p>Sunday - 7am-12 midnight</p>
-	</div>
+	</div><!-- hours -->
 	
 	<div id="social">
 		
