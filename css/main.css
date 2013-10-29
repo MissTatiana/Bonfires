@@ -57,10 +57,9 @@ table {
 	border-spacing: 0;
 }
 
-img {
+/*img {
 	max-width: 100%;
-}
-
+}*/
 /*	=	=	=	=	=	=	=	=	= 	=	=	=	=	=	=	=	=	=
 							  Body Styles
 =	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	*/
@@ -68,60 +67,49 @@ img {
 body {
 	text-align: center;
 	font-size: 62.5%;
-	background: url('../images/dark_wood.png');
+	background: url(../images/dark_wood.png);
 }
 
-.wrap {
-	width: 960px;
+#wrap {
+	width: 1000px;
 	margin: 0 auto;
 	text-align: left;
-	background: rgba(37, 35, 40, .6);
+	background: rgba(37, 35, 40, .7);
 }
-
 
 /*	=	=	=	=	=	=	=	=	= 	=	=	=	=	=	=	=	=	=
 							  Text and fonts
 =	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	*/
 
 h2 {
-	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-	font-size: 1.700em;
-	color: #aa3c17;
+	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	font-size: 2.500em;
+	color: #a57861;
 }
 
 h3 {
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-	font-size: 1.500em;
-	color: #652f1d;
+	font-size: 2.200em;
+	color: #aa3c17;
 }
 
-h4 {
+h4{
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-	font-size: 1.300em;
-	color: #C2C2C2;
+	font-size: 1.900em;
+	color: #652f1d;
 }
 
 p {
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-	font-size: 1.300em;
-	color: #c2c2c2
+	font-size: 1.800em;
+	color: #c2c2c2;
 }
 
 label {
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-	font-size: 1.400em;
-	color: #652F1D;
-
+	font-size: 1.800em;
+	color: #652F1D;	
 }
-
-a {
-	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-	font-size: 1.200em;
-	color: #a57861;
-	text-decoration: none;
-	border-bottom: 1px solid #A57861; 
-}
-
 
 
 
@@ -129,7 +117,40 @@ a {
 								Header
 =	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	*/
 
+#logo {
+	float: left;
+	width: 360px;
+	margin: 10px 80px 0 0;
+}
 
+#headerNav a {
+	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	font-size: 2.200em;
+	color: #C2C2C2;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+}
+
+#headerNav a:hover {
+	color: #A57861;
+	border-bottom: 1px solid #A57861;
+}
+
+#headerNav {
+	padding-top: 40px;
+}
+
+#headerNav ul {
+	clear: left;
+	text-align: center;
+}
+
+#headerNav li {
+	display: inline;
+	float: left;
+	margin: 5px 15px 5px 5px;
+}
 
 
 /*	=	=	=	=	=	=	=	=	= 	=	=	=	=	=	=	=	=	=
