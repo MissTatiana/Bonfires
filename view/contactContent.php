@@ -63,7 +63,7 @@
 			</p>
 			
 			<!-- This goes to the employment application -->
-			<a href="?action=empApp">Apply now>></a>
+			<a href="?action=empApp" class="reglink">Apply now>></a>
 			
 		</div><!-- workInterest -->
 		
