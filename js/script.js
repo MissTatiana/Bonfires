@@ -1,1 +1,1 @@
-$('#tabContainer').easytabs();
+$('#tab-container').easytabs();
