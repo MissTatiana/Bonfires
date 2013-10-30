@@ -43,5 +43,9 @@
 </div><!-- wrap -->
 	
 </body>
+<!-- jquery -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.js"></script>
+<!-- main script -->
+<script type="text/javascript" src="js/script.js"></script>
 	
 </html>
