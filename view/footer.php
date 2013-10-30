@@ -45,6 +45,9 @@
 </body>
 <!-- jquery -->
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.js"></script>
+<!-- for the easy tabs -->
+<script src="/javascripts/jquery.hashchange.js" type="text/javascript"></script>
+<script src="/javascripts/jquery.easytabs.js" type="text/javascript"></script>
 <!-- main script -->
 <script type="text/javascript" src="js/script.js"></script>
 	
