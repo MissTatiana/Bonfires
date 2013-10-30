@@ -99,7 +99,7 @@ h3 {
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 2.200em;
 	color: #aa3c17;
-	margin: 10px 0 8px 8px;
+	margin: 6px;
 }
 
 h4{
@@ -218,6 +218,13 @@ a {
 								Menu
 =	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	*/
 
+/*	=	=	=	=	Easy Tabs	=	=	=	=	*/
+
+#tab-container {
+	height: 600px;
+	padding-bottom: 50px;
+}
+
 .etabs { 
 	margin: 0; 
 	padding: 0; 
@@ -263,6 +270,36 @@ a {
 	padding: 10px; 
 	-moz-border-radius: 0 4px 4px 4px; 
 	-webkit-border-radius: 0 4px 4px 4px; 
+}
+
+/*	=	=	=	=	Inside the tabs	=	=	=	=	*/
+
+#appetizers {
+	margin-left: 10px;
+}
+
+.col1 {
+	width: 260px;
+	float: left;
+	margin: 5px 15px 3px 8px;
+}
+
+.col2 {
+	width: 260px;
+	height: 260px;
+	float: left;
+	margin: 5px 15px 3px 8px;
+}
+
+.col3 {
+	width: 260px;
+	height: 260px;
+	float: left;
+	margin: 5px 15px 3px 8px;
+}
+
+.description {
+	height: 120px;
 }
 
 
