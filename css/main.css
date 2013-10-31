@@ -302,11 +302,28 @@ a {
 	margin: 5px 15px 3px 7px;
 }
 
+.breakfastInfo {
+	margin: 5px 15px 3px 7px;
+}
+
 .description {
 	height: 120px;
 }
 
+/*	=	=	=	=	BreakFast Portion	=	=	=	=	*/
 
+#breakfastSandwich {
+	clear: left;
+}
+
+#pancakes {
+	clear: left;
+}
+
+#specialties {
+	clear: left;
+	margin-bottom: 200px;
+}
 
 
 /*	=	=	=	=	=	=	=	=	= 	=	=	=	=	=	=	=	=	=
