@@ -8,11 +8,12 @@
 	
 		<div id="directions">
 		
-			<p>140 Alafaya Trail</p><br />
+			<p>1340 Alafaya Trail</p><br />
 			<p>Oviedo Fl, 23765</p><br />
 			<p>(407) 366-4073</p><br />
 			<br />
 		
+			<!-- directions should go to google maps and directions from routes -->
 			<a href="#">Get directions</a>
 		
 		</div><!-- directions -->
@@ -28,13 +29,13 @@
 			
 			<form id="message" action="message">
 			
-				<label for="name">*Name:</label>
-				<input type="text" name="name" id="name" required="required" />
+				<label for="name">*Name:</label><br />
+				<input type="text" name="name" id="name" required="required" /><br />
 				
-				<label for="email">*Email Address</label>
-				<input type="email" name="email" id="email" required="required" placeholder="example@email.com" />
+				<label for="email">*Email Address</label><br />
+				<input type="email" name="email" id="email" required="required" placeholder="example@email.com" /><br />
 				
-				<label for="subject">*Subject</label>
+				<label for="subject">*Subject</label><br />
 				<select>
 					<option>Contacting about</option>
 					<option>Event</option>
@@ -42,10 +43,10 @@
 					<option>Improvements</option>
 					<option>Employment</option>
 					<option>Other</option>
-				</select>
+				</select><br />
 				
-				<label for="theMessage">*Message:</label>
-				<textarea name="theMessage" id="theMessage"></textarea>
+				<label for="theMessage">*Message:</label><br />
+				<textarea name="theMessage" id="theMessage"></textarea><br />
 				
 				<input type="submit" id="sendBtn" value="Send" />
 				
@@ -81,38 +82,38 @@
 			
 			<label for="food">Food:</label>
 			<div id="food">
-				<input type="radio" name="food" value="1">1<br />
-				<input type="radio" name="food" value="2">2<br />
-				<input type="radio" name="food" value="3">3<br />
-				<input type="radio" name="food" value="4">4<br />
-				<input type="radio" name="food" value="5">5<br />
+				<input type="radio" name="food" value="1"><p>1</p><br />
+				<input type="radio" name="food" value="2"><p>2</p><br />
+				<input type="radio" name="food" value="3"><p>3</p><br />
+				<input type="radio" name="food" value="4"><p>4</p><br />
+				<input type="radio" name="food" value="5"><p>5</p><br />
 			</div><!-- food -->
 			
 			<label for="service">Service:</label>
 			<div id="service">
-				<input type="radio" name="service" value="1">1<br />
-				<input type="radio" name="service" value="2">2<br />
-				<input type="radio" name="service" value="3">3<br />
-				<input type="radio" name="service" value="4">4<br />
-				<input type="radio" name="service" value="5">5<br />
+				<input type="radio" name="service" value="1"><p>1</p><br />
+				<input type="radio" name="service" value="2"><p>2</p><br />
+				<input type="radio" name="service" value="3"><p>3</p><br />
+				<input type="radio" name="service" value="4"><p>4</p><br />
+				<input type="radio" name="service" value="5"><p>5</p><br />
 			</div><!-- service -->
 			
 			<label for="cleaniness">Cleaniness:</label>
 			<div id="cleaniness">
-				<input type="radio" name="cleaniness" value="1">1<br />
-				<input type="radio" name="cleaniness" value="2">2<br />
-				<input type="radio" name="cleaniness" value="3">3<br />
-				<input type="radio" name="cleaniness" value="4">4<br />
-				<input type="radio" name="cleaniness" value="5">5<br />
+				<input type="radio" name="cleaniness" value="1"><p>1</p><br />
+				<input type="radio" name="cleaniness" value="2"><p>2</p><br />
+				<input type="radio" name="cleaniness" value="3"><p>3</p><br />
+				<input type="radio" name="cleaniness" value="4"><p>4</p><br />
+				<input type="radio" name="cleaniness" value="5"><p>5</p><br />
 			</div><!-- cleaniness -->
 			
 			<label for="spev">Specials and Events:</label>
 			<div id="spev">
-				<input type="radio" name="spev" value="1">1<br />
-				<input type="radio" name="spev" value="2">2<br />
-				<input type="radio" name="spev" value="3">3<br />
-				<input type="radio" name="spev" value="4">4<br />
-				<input type="radio" name="spev" value="5">5<br />
+				<input type="radio" name="spev" value="1"><p>1</p><br />
+				<input type="radio" name="spev" value="2"><p>2</p><br />
+				<input type="radio" name="spev" value="3"><p>3</p><br />
+				<input type="radio" name="spev" value="4"><p>4</p><br />
+				<input type="radio" name="spev" value="5"><p>5</p><br />
 			</div><!-- spev -->
 			
 			<label for="comments">Additional Comments:</label>

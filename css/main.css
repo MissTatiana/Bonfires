@@ -375,7 +375,56 @@ a {
 								Contact
 =	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	*/
 
+/*	=	=	=	=	Directions Box	=	=	=	=	*/
 
+#find {
+	background: rgba(56, 15, 14, .1);
+	width: 940px;
+	height: 340px;
+}
+
+#find h3 {
+	padding: 10px 0 0 15px;
+}
+
+#directions {
+	float: left;
+	width: 300px;
+	padding: 30px 40px 0 60px;
+	text-align: center;
+}
+
+#directions p {
+	font-size: 1.900em;
+}
+
+
+/*	=	=	=	=	Left, contact, workInterest	=	=	=	=	*/
+
+#left {
+	width: 500px;
+	float: left;
+}
+
+/*	=	=	Contact/Send Message	=	=	*/
+
+#contact {
+	background: rgba(56, 15, 14, .1);
+	width: 490px;
+	height: 500px;
+}
+
+#contact h3 {
+	padding: 10px 0 0 15px;
+}
+
+#message {
+	padding: 
+}
+
+#lable {
+	display: block;
+}
 
 
 /*	=	=	=	=	=	=	=	=	= 	=	=	=	=	=	=	=	=	=
