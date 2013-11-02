@@ -99,7 +99,7 @@ h3 {
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 2.200em;
 	color: #aa3c17;
-	margin: 6px;
+	margin: 6px 0 8px 0;
 }
 
 h4{
@@ -335,13 +335,40 @@ a {
 #happyHour {
 	width: 400px;
 	float: left;
+	padding-right: 40px;
+}
+
+#happyHour h4, ul {
+	margin-left: 10px;
+}
+
+.specialText {
+	line-height: 25px;
+}
+
+#specialImg {
+	padding-bottom: 50px;
 }
 
 #days {
 	clear: left;
 	width: 400px;
 	float: left;
+	padding-right: 80px; 
 }
+
+#days p, ul{
+	margin-left: 10px;
+}
+
+#days p {
+	line-height: 25px;
+}
+
+#images img {
+	padding: 10px 0 10px 0;
+}
+
 
 
 /*	=	=	=	=	=	=	=	=	= 	=	=	=	=	=	=	=	=	=
