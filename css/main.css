@@ -429,6 +429,7 @@ textarea {
 #feedback {
 	background: rgba(56, 15, 14, .1);
 	width: 410px;
+	height: 590px;
 	margin-top: 30px;
 }
 
@@ -442,8 +443,32 @@ textarea {
 }
 
 #feedback label {
-	margin: 0 0 0 10px;
+	margin: 2px 10px 3px 8px;
 }
+
+#feedEmail {
+	margin: 3px 0 5px 17px;
+	width: 300px;
+}
+
+.radioDiv {
+	margin: 2px 0 2px 40px;
+}
+
+.radioDiv input {
+	margin-right: 10px;
+	margin-bottom: 3px;
+}
+
+#feedback textarea {
+	margin: 8px 0 0 17px;
+	width: 300px;
+	height: 140px;
+}
+
+#feedbackBtn {
+	margin: 10px 0 0 230px;
+} 
 
 /*	=	=	=	=	=	=	=	=	= 	=	=	=	=	=	=	=	=	=
 								Employment Application
