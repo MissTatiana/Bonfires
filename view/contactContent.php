@@ -30,10 +30,10 @@
 			<form id="message" action="message">
 			
 				<label for="name">*Name:</label><br />
-				<input type="text" name="name" id="name" required="required" /><br />
+				<input type="text" name="name" id="name" class="input" required="required" /><br />
 				
 				<label for="email">*Email Address</label><br />
-				<input type="email" name="email" id="email" required="required" placeholder="example@email.com" /><br />
+				<input type="email" name="email" id="email" class="input" required="required" placeholder="example@email.com" /><br />
 				
 				<label for="subject">*Subject</label><br />
 				<select>
@@ -48,7 +48,7 @@
 				<label for="theMessage">*Message:</label><br />
 				<textarea name="theMessage" id="theMessage"></textarea><br />
 				
-				<input type="submit" id="sendBtn" value="Send" />
+				<input type="submit" id="sendBtn" class="btn" value="Send" />
 				
 			</form><!-- message -->
 		
@@ -64,7 +64,7 @@
 			</p>
 			
 			<!-- This goes to the employment application -->
-			<a href="?action=empApp" class="reglink">Apply now>></a>
+			<a href="?action=empApp" class="reglink">Apply now >></a>
 			
 		</div><!-- workInterest -->
 		

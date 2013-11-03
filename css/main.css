@@ -410,8 +410,9 @@ a {
 
 #contact {
 	background: rgba(56, 15, 14, .1);
-	width: 490px;
-	height: 500px;
+	width: 410px;
+	height: 460px;
+	margin-top: 50px;
 }
 
 #contact h3 {
@@ -419,21 +420,86 @@ a {
 }
 
 #message {
-	padding: 
+	padding: 10px 0 0 15px;
 }
 
-#lable {
-	display: block;
+.input, select {
+	width: 250px;
+	margin: 4px 0 9px 0;
 }
 
+#message textarea {
+	width: 320px;
+	height: 130px;
+	margin: 4px 0 9px 0;
+}
+
+#message .btn {
+	margin: 20px 0 0 240px ;
+}
+
+
+/*	=	=	=	=	Work Interest	=	=	=	=	*/
+
+#workInterest {
+	background: rgba(56, 15, 14, .1);
+	width: 410px;
+	height: 240px;
+	margin-top: 30px;
+}
+
+#workInterest h3 {
+	padding: 10px 0 0 15px;
+}
+
+#workInterest p {
+	margin: 15px 0 15px 15px;
+	width: 380px;
+}
+
+#workInterest a {
+	margin: 15px 0 0 255px;
+}
 
 /*	=	=	=	=	=	=	=	=	= 	=	=	=	=	=	=	=	=	=
 								Employment Application
 =	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	*/
 
 
+/*	=	=	=	=	=	=	=	=	= 	=	=	=	=	=	=	=	=	=
+								Button
+=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	*/
 
+.btn {
+	border: none;
+   background: #4a352a;
+   background: -webkit-gradient(linear, left top, left bottom, from(#a57861), to(#4a352a));
+   background: -webkit-linear-gradient(top, #a57861, #4a352a);
+   background: -moz-linear-gradient(top, #a57861, #4a352a);
+   background: -ms-linear-gradient(top, #a57861, #4a352a);
+   background: -o-linear-gradient(top, #a57861, #4a352a);
+   padding: 5px 17px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   color: #000000;
+   font-size: 1.700em;
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   text-decoration: none;
+   vertical-align: middle;
+}
 
+.btn:hover {
+   background: #4a352a;
+   color: #ccc;
+}
+
+.btn:active {
+   background: #a57861;
+}
 
 /*	=	=	=	=	=	=	=	=	= 	=	=	=	=	=	=	=	=	=
 								Footer
