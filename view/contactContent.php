@@ -22,53 +22,39 @@
 		
 	</div><!-- find -->	
 
-	<div id="left">
-		<div id="contact"> 
-			
-			<h3>Send Us a Message</h3>
-			
-			<form id="message" action="message">
-			
-				<label for="name">*Name:</label><br />
-				<input type="text" name="name" id="name" class="input" required="required" /><br />
-				
-				<label for="email">*Email Address</label><br />
-				<input type="email" name="email" id="email" class="input" required="required" placeholder="example@email.com" /><br />
-				
-				<label for="subject">*Subject</label><br />
-				<select>
-					<option>Contacting about</option>
-					<option>Event</option>
-					<option>Complaint</option>
-					<option>Improvements</option>
-					<option>Employment</option>
-					<option>Other</option>
-				</select><br />
-				
-				<label for="theMessage">*Message:</label><br />
-				<textarea name="theMessage" id="theMessage"></textarea><br />
-				
-				<input type="submit" id="sendBtn" class="btn" value="Send" />
-				
-			</form><!-- message -->
+	<div id="contact"> 
 		
-		</div><!-- contact -->
+		<h3>Send Us a Message</h3>
 		
-		<div id="workInterest">
-			
-			<h3>Interested in Working for Bonfires</h3>
-			
-			<p>
-				Cupcake ipsum color. Sit amet powder gingerbread jelly-o macaroon unerd-wear.com chocolcate.
-				Marzipan lollipop gummies.
-			</p>
-			
-			<!-- This goes to the employment application -->
-			<a href="?action=empApp" class="reglink">Apply now >></a>
-			
-		</div><!-- workInterest -->
+		<form id="message" action="message">
 		
-	</div><!-- left -->
+			<label for="name">*Name:</label><br />
+			<input type="text" name="name" id="name" class="input" required="required" /><br />
+			
+			<label for="email">*Email Address</label><br />
+			<input type="email" name="email" id="email" class="input" required="required" placeholder="example@email.com" /><br />
+			
+			<label for="subject">*Subject</label><br />
+			<select>
+				<option>Contacting about</option>
+				<option>Event</option>
+				<option>Complaint</option>
+				<option>Improvements</option>
+				<option>Employment</option>
+				<option>Other</option>
+			</select><br />
+			
+			<label for="theMessage">*Message:</label><br />
+			<textarea name="theMessage" id="theMessage"></textarea><br />
+			
+			<input type="submit" id="sendBtn" class="btn" value="Send" />
+			
+		</form><!-- message -->
+	
+	</div><!-- contact -->
+		
+	
+		
 	
 	<div id="feedback">
 		
@@ -119,10 +105,26 @@
 			<label for="comments">Additional Comments:</label>
 			<textarea id="comments" name="comments"></textarea>
 			
-			<input type="submit" id="feedbackBtn" value="Submit" />
+			<input type="submit" id="feedbackBtn" class="btn" value="Submit" />
 		
 		</form>
 		
 	</div><!-- feedback -->
+	
+	<div id="workInterest">
+		
+		<h3>Interested in Working for Bonfires</h3>
+		
+		<p>
+			Cupcake ipsum color. Sit amet powder gingerbread jelly-o macaroon unerd-wear.com chocolcate.
+			Marzipan lollipop gummies.
+		</p>
+		
+		<!-- This goes to the employment application -->
+		<a href="?action=empApp" class="reglink">Apply now >></a>
+		
+	</div><!-- workInterest -->
+	
+	
 	
 </div><!-- content -->
