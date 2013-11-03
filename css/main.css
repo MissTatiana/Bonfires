@@ -499,6 +499,70 @@ textarea {
 								Employment Application
 =	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	*/
 
+/*	=	=	=	=  General Info	=	=	=	=	*/
+
+#general {
+	background: rgba(56, 15, 14, .1);
+	width: 930px;
+	height: 200px;
+}
+
+#general h3 {
+	padding: 7px 0 0 10px;
+}
+
+#general label {
+	margin: 0 8px 0 10px;
+}
+
+#general textarea {
+	margin: 5px 0 0 12px;
+	width: 500px;
+	height: 75px;
+}
+
+/*	=	=	=	=	Personal Info 	=	=	=	=	*/
+
+#personal {
+	background: rgba(56, 15, 14, .1);
+	width: 930px;
+	margin-top: 20px;
+}
+
+#wholeName {
+	margin-bottom: 10px;
+}
+
+#personal h3 {
+	padding: 7px 0 0 10px;
+}
+
+#personal label {
+	display: block;
+	margin: 0 0 5px 12px;
+}
+
+#personal input {
+	margin: 0 0 0 12px;
+}
+
+#firstName, #lastName {
+	width: 200px;
+}
+
+#fName {
+	width: 220px;
+	float: left;
+}
+
+#mName {
+	width: 70px;
+	float: left;
+}
+
+#mi {
+	width: 50px;
+}
 
 /*	=	=	=	=	=	=	=	=	= 	=	=	=	=	=	=	=	=	=
 								Button
