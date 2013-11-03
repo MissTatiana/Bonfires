@@ -6,17 +6,17 @@
 	
 		<h3>Where to find us</h3>
 	
-		<div id="directions">
+		<span id="directions">
 		
 			<p>1340 Alafaya Trail</p><br />
 			<p>Oviedo Fl, 23765</p><br />
-			<p>(407) 366-4073</p><br />
+			<p>(407) 366 - 4073</p><br />
 			<br />
 		
 			<!-- directions should go to google maps and directions from routes -->
 			<a href="#">Get directions</a>
 		
-		</div><!-- directions -->
+		</span><!-- directions -->
 	
 		<img src="http://placehold.it/380x260" alt="click for directions"/>
 		
@@ -26,6 +26,7 @@
 		
 		<h3>Send Us a Message</h3>
 		
+		<!-- does this need the mailto in the action? -->
 		<form id="message" action="message">
 		
 			<label for="name">*Name:</label><br />
@@ -35,13 +36,13 @@
 			<input type="email" name="email" id="email" class="input" required="required" placeholder="example@email.com" /><br />
 			
 			<label for="subject">*Subject</label><br />
-			<select>
+			<select name="about">
 				<option>Contacting about</option>
-				<option>Event</option>
-				<option>Complaint</option>
-				<option>Improvements</option>
-				<option>Employment</option>
-				<option>Other</option>
+				<option value="event">Event</option>
+				<option value="complaint">Complaint</option>
+				<option value="improvements">Improvements</option>
+				<option value="employment">Employment</option>
+				<option value="other">Other</option>
 			</select><br />
 			
 			<label for="theMessage">*Message:</label><br />
@@ -52,9 +53,6 @@
 		</form><!-- message -->
 	
 	</div><!-- contact -->
-		
-	
-		
 	
 	<div id="feedback">
 		
