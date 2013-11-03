@@ -412,6 +412,7 @@ a {
 
 .input, select {
 	width: 200px;
+	margin: 5px 0 8px 0;
 }
 
 textarea {
@@ -424,6 +425,25 @@ textarea {
 }
 
 /*	=	=	=	=	Feedback	=	=	=	=	*/
+
+#feedback {
+	background: rgba(56, 15, 14, .1);
+	width: 410px;
+	margin-top: 30px;
+}
+
+#feedback h3 {
+	padding: 10px 0 0 10px;
+}
+
+.instruct {
+	width: 400px;
+	margin: 5px 0 5px 15px;
+}
+
+#feedback label {
+	margin: 0 0 0 10px;
+}
 
 /*	=	=	=	=	=	=	=	=	= 	=	=	=	=	=	=	=	=	=
 								Employment Application

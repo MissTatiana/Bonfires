@@ -57,12 +57,12 @@
 	<div id="feedback">
 		
 		<h3>Customer Feedback</h3>
-		<p>Using numbers 1-5, 1 for unsatisfactory and 5 for satisfactory. Your feebback is really important to us.</p>
+		<p class="instruct">Using numbers 1-5, 1 for unsatisfactory and 5 for satisfactory. Your feebback is really important to us.</p>
 		
 		<form action="feedback">
 			
-			<label for="feedEmail">*Email Address:</label>
-			<input type="email" name="feedEmail" id="feedEmail" required="required" />
+			<label for="feedEmail">*Email Address:</label><br />
+			<input type="email" name="feedEmail" id="feedEmail" class="input" required="required" />
 			
 			<label for="food">Food:</label>
 			<div id="food">
