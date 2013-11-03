@@ -399,6 +399,7 @@ a {
 	background: rgba(56, 15, 14, .1);
 	width: 410px;
 	height: 400px;
+	float: left;
 	margin-top: 30px;
 }
 
@@ -429,8 +430,9 @@ textarea {
 #feedback {
 	background: rgba(56, 15, 14, .1);
 	width: 410px;
-	height: 590px;
+	height: 600px;
 	margin-top: 30px;
+	margin-left: 500px;
 }
 
 #feedback h3 {
@@ -469,6 +471,29 @@ textarea {
 #feedbackBtn {
 	margin: 10px 0 0 230px;
 } 
+
+/*	=	=	=	=	Work Interest	=	=	=	=	*/
+
+#workInterest {
+	background: rgba(56, 15, 14, .1);
+	width: 410px;
+	height: 175px;
+	position: absolute;
+	top: 930px;
+	margin-top: 5px;
+}
+
+#workInterest h3 {
+	padding: 10px 0 0 10px;
+}
+
+#workInterest p {
+	margin: 5px 0 0 12px;
+}
+
+#workInterest a {
+	margin: 5px 0 0 260px;
+}
 
 /*	=	=	=	=	=	=	=	=	= 	=	=	=	=	=	=	=	=	=
 								Employment Application
