@@ -48,25 +48,37 @@
 			</div><!-- wholename -->
 			
 			<div id="streetAdd">
-				<label for="street">*Address:</label>
-				<input type="text" name="street" id="street"  required="required"/>
+				<div id="adrs">
+					<label for="street">*Address:</label>
+					<input type="text" name="street" id="street"  required="required"/>
+				</div><!-- adrs -->
 				
-				<label for="city">*City:</label>
-				<input type="text" name="city" id="city"  required="required"/>
+				<div id="cit">
+					<label for="city">*City:</label>
+					<input type="text" name="city" id="city"  required="required"/>
+				</div><!-- cit -->
 				
-				<label for="state">*State:</label>
-				<input type="text" name="state" id="state"  required="required"/>
+				<div id="st">
+					<label for="state">*State:</label>
+					<input type="text" name="state" id="state"  required="required"/>
+				</div><!-- st -->
 				
-				<label for="zip">*Zip Code:</label>
-				<input type="number" name="zip" id="zip"  required="required"/>
+				<div id="zp">
+					<label for="zip">*Zip Code:</label>
+					<input type="number" name="zip" id="zip"  required="required"/>
+				</div><!-- zp -->			
 			</div><!-- streetAdd -->
 			
 			<div id="contactInfo">
-				<label for="phone">*Phone Number:</label>
-				<input type="number" name="phone" id="phone" required="required" />
+				<div id="pNumber">
+					<label for="phone">*Phone Number:</label>
+					<input type="tel" name="phone" id="phone" placeholder="000-000-0000" required="required" />
+				</div><!-- pNumber -->
 				
-				<label for="appEmail">*Email Address:</label>
-				<input type="text" name="appEmail" id="appEmail"  required="required"/>
+				<div id="eAdd">
+					<label for="appEmail">*Email Address:</label>
+					<input type="text" name="appEmail" id="appEmail" placeholder="example@email.com" required="required"/>
+				</div><!-- eAdd -->
 			</div><!-- contactInfo -->
 			
 		</div><!-- personal -->
@@ -76,123 +88,200 @@
 			<h3>Work Experience</h3>
 			
 			<div id="current">
-				<label for="currently">Currently Employed?</label>
-				<input type="checkbox" name="currently" value="yes">yes<br />
-				<input type="checkbox" name="currently" value="no">no<br />
+				<div id="check">
+					<label for="currently">Currently Employed?</label>
+					<input type="checkbox" name="currently" id="yes" value="yes">
+					<label for="yes" class="grey">yes</label>
+					<input type="checkbox" name="currently" id="no" value="no">
+					<label for="no" class="grey">no</label>
+				</div><!-- check -->
+				<br />
 				
 				<div class="position">
-					<label for="currentEmp">Current Employer:</label>
-					<input type="text" name="currentEmp" id="currentEmp" />
+					<div class="emp">
+						<label for="currentEmp">Current Employer:</label>
+						<input type="text" name="currentEmp" id="currentEmp" />
+					</div><!-- emp -->
 					
-					<label for="currentPos">Position:</label>
-					<input type="text" name="currentPos" id="currentPos" />
+					<div class="pos">
+						<label for="currentPos">Position:</label>
+						<input type="text" name="currentPos" id="currentPos" />
+					</div><!-- pos -->
 				</div><!-- position -->
+				<br />
 				
 				<div class="since">
-					<label for="empSince">Employed Since:</label>
-					<input type="text" name="empSince" id="empSince" />
+					<div class="es">
+						<label for="empSince">Employed Since:</label>
+						<input type="text" name="empSince" id="empSince" />
+					</div><!-- es -->
 					<!-- need a date picket -->
 					
-					<label for="supervisor">Supervisor:</label>
-					<input type="text" name="supervisor" id="supervisor" />
+					<div class="super">
+						<label for="supervisor">Supervisor:</label>
+						<input type="text" name="supervisor" id="supervisor" />
+					</div><!-- super -->
 				</div><!-- since -->
 				
 				<div class="currentAdd">
-					<label for="currentCity">City:</label>
-					<input type="text" name="currentCity" id="currentCity" />
+					<div class="ccity">
+						<label for="currentCity">City:</label>
+						<input type="text" name="currentCity" id="currentCity" />
+					</div><!-- ccity -->
 					
-					<label for="currentSt">Sate:</label>
-					<input type="text" name="currentSt" id="currentSt" />
+					<div class="cst">
+						<label for="currentSt">State:</label>
+						<input type="text" name="currentSt" id="currentSt" />
+					</div><!-- cst -->
 					
-					<label for="currentPhone">Phone Number:</label>
-					<input type="number" name="currentPhone" id="currentPhone" />
+					<div class="czip">
+						<label for="currentZip">Zip Code:</label>
+						<input type="number" name="currentZip" id="currentZip" />
+					</div>
+					
+					<div class="cphone">
+						<label for="currentPhone">Phone Number:</label>
+						<input type="tel" name="currentPhone" placeholder="000-000-0000" id="currentPhone" />
+					</div><!-- cphone -->
 				</div><!-- currentAdd -->
-				
-				<label for="currentRate">Rate of Pay:</label>
-				<input type="text" name="currentRate" id="currentRate" />
+				<br />
+				<div class="crate">
+					<label for="currentRate">Rate of Pay:</label>
+					<input type="text" name="currentRate" id="currentRate" />
+				</div><!-- crate -->
 			</div><!-- current -->
 			
 			<div id="previous">
 				<div class="position">
-					<label for="previousEmp">Current Employer:</label>
-					<input type="text" name="previousEmp" id="previousEmp" />
+					<div class="emp">
+						<label for="previousEmp">Previous Employer:</label>
+						<input type="text" name="previousEmp" id="previousEmp" />
+					</div><!-- emp -->
 					
-					<label for="previousPos">Position:</label>
-					<input type="text" name="previousPos" id="previousPos" />
+					<div class="pos">
+						<label for="previousPos">Position:</label>
+						<input type="text" name="previousPos" id="previousPos" />
+					</div><!-- pos -->
 				</div><!-- position -->
 				
 				<div class="since">
-					<label for="empFrom">Employed From:</label>
-					<input type="text" name="empFrom" id="empFrom" />
+					<div class="ef">
+						<label for="empFrom">Employed From:</label>
+						<input type="text" name="empFrom" id="empFrom" />
+					</div><!-- ef -->
 					<!-- need a date picker -->
 					
-					<label for="empPrev">Employed Till:</label>
-					<input type="text" name="empPrev" id="empPrev" />
+					<div class="ep">
+						<label for="empPrev">Employed Till:</label>
+						<input type="text" name="empPrev" id="empPrev" />
+					</div><!-- ep -->
 					<!-- need a date picket -->
 					
-					<label for="supervisorPrev">Supervisor:</label>
-					<input type="text" name="supervisorPrev" id="supervisorPrev" />
+					<div class="super">
+						<label for="supervisorPrev">Supervisor:</label>
+						<input type="text" name="supervisorPrev" id="supervisorPrev" />
+					</div><!-- super -->
 				</div><!-- since -->
 				
 				<div class="previousAdd">
-					<label for="currentCity">City:</label>
-					<input type="text" name="previousAdd" id="previousAdd" />
+					<div class="ccity">
+						<label for="prevCity">City:</label>
+						<input type="text" name="prevCity" id="prevCity" />
+					</div><!-- ccity -->
 					
-					<label for="previousSt">Sate:</label>
-					<input type="text" name="previousSt" id="previousSt" />
+					<div class="cst">
+						<label for="previousSt">State:</label>
+						<input type="text" name="previousSt" id="previousSt" />
+					</div><!-- cst -->
 					
-					<label for="previousPhone">Phone Number:</label>
-					<input type="number" name="previousPhone" id="previousPhone" />
+					<div class="czip">
+						<label for="previousZip">Zip Code</label>
+						<input type="number" name="previousZip" id="previousZip" />
+					</div><!-- czip -->
+					
+					<div class=" cphone">
+						<label for="previousPhone">Phone Number:</label>
+						<input type="number" name="previousPhone" id="previousPhone" />
+					</div><!-- cphone -->
 				</div><!-- currentAdd -->
-				
+	
 				<div id="rateLeave">
-					<label for="prevousRate">Rate of Pay:</label>
-					<input type="text" name="prevousRate" id="prevousRate" />
+					<div class="prevRate">
+						<label for="prevousRate">Rate of Pay:</label>
+						<input type="text" name="prevousRate" id="prevousRate" />
+					</div><!-- prevRate -->
 					
-					<label for="leaving">Reasoning for Leaving:</label>
-					<input type="text" name="leaving" id="leaving" />
+					<div class="rleave">
+						<label for="leaving">Reasoning for Leaving:</label>
+						<input type="text" name="leaving" id="leaving" />
+					</div><!-- rleave -->
 				</div><!-- rateLeave -->
 			</div><!-- previous -->
 			
 			<div id="previousTwo">
 				<div class="position">
-					<label for="previousTwoEmp">Current Employer:</label>
-					<input type="text" name="previousTwoEmp" id="previousTwoEmp" />
+					<div class="emp">
+						<label for="previousTwoEmp">Previous Employer:</label>
+						<input type="text" name="previousTwoEmp" id="previousTwoEmp" />
+					</div><!-- emp -->
 					
-					<label for="previousTwoPos">Position:</label>
-					<input type="text" name="previousTwoPos" id="previousTwoPos" />
+					<div class="pos">
+						<label for="previousTwoPos">Position:</label>
+						<input type="text" name="previousTwoPos" id="previousTwoPos" />
+					</div><!-- pos -->
 				</div><!-- position -->
 				
 				<div class="since">
-					<label for="empFromTwo">Employed From:</label>
-					<input type="text" name="empFromTwo" id="empFromTwo" />
+					<div class="ef">
+						<label for="empFromTwo">Employed From:</label>
+						<input type="text" name="empFromTwo" id="empFromTwo" />
+					</div><!-- ef -->
 					<!-- need a date picker -->
 					
-					<label for="empPrevTwo">Employed Till:</label>
-					<input type="text" name="empPrevTwo" id="empPrevTwo" />
+					<div class="ep">
+						<label for="empPrevTwo">Employed Till:</label>
+						<input type="text" name="empPrevTwo" id="empPrevTwo" />
+					</div><!-- ep -->
 					<!-- need a date picket -->
 					
-					<label for="supervisorPrevTwo">Supervisor:</label>
-					<input type="text" name="supervisorPrevTwo" id="supervisorPrevTwo" />
+					<div class="super">
+						<label for="supervisorPrevTwo">Supervisor:</label>
+						<input type="text" name="supervisorPrevTwo" id="supervisorPrevTwo" />
+					</div><!-- super -->
 				</div><!-- since -->
 				
-				<div class="previousTwoAdd">
-					<label for="currentCity">City:</label>
-					<input type="text" name="previousTwoAdd" id="previousTwoAdd" />
+				<div class="previousAdd">
+					<div class="ccity">
+						<label for="prevCityTwo">City:</label>
+						<input type="text" name="prevCityTwo" id="prevCityTwo" />
+					</div><!-- ccity -->
 					
-					<label for="previousTwoSt">Sate:</label>
-					<input type="text" name="previousTwoSt" id="previousTwoSt" />
+					<div class="cst">
+						<label for="previousStTwo">State:</label>
+						<input type="text" name="previousStTwo" id="previousStTwo" />
+					</div><!-- cst -->
 					
-					<label for="previousTwoPhone">Phone Number:</label>
-					<input type="number" name="previousTwoPhone" id="previousTwoPhone" />
+					<div class="czip">
+						<label for="previousZipTwo">Zip Code</label>
+						<input type="number" name="previousZipTwo" id="previousZipTwo" />
+					</div><!-- czip -->
+					
+					<div class=" cphone">
+						<label for="previousPhoneTwo">Phone Number:</label>
+						<input type="number" name="previousPhoneTwo" id="previousPhoneTwo" />
+					</div><!-- cphone -->
 				</div><!-- currentAdd -->
-				
+	
 				<div id="rateLeave">
-					<label for="prevousTwoRate">Rate of Pay:</label>
-					<input type="text" name="prevousTwoRate" id="prevousTwoRate" />
+					<div class="prevRate">
+						<label for="prevousRateTwo">Rate of Pay:</label>
+						<input type="text" name="prevousRateTwo" id="prevousRateTwo" />
+					</div><!-- prevRate -->
 					
-					<label for="leavingTwo">Reasoning for Leaving:</label>
-					<input type="text" name="leavingTwo" id="leavingTwo" />
+					<div class="rleave">
+						<label for="leavingTwo">Reasoning for Leaving:</label>
+						<input type="text" name="leavingTwo" id="leavingTwo" />
+					</div><!-- rleave -->
 				</div><!-- rateLeave -->
 			</div><!-- previous -->
 		</div><!-- experience -->

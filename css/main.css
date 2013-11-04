@@ -526,6 +526,7 @@ textarea {
 #personal {
 	background: rgba(56, 15, 14, .1);
 	width: 930px;
+	height: 225px;
 	margin-top: 20px;
 }
 
@@ -539,11 +540,17 @@ textarea {
 
 #personal label {
 	display: block;
-	margin: 0 0 5px 12px;
+	margin: 5px 0 5px 12px;
 }
 
 #personal input {
 	margin: 0 0 0 12px;
+}
+
+/*	=	=	Name	=	=	*/
+
+#wholeName {
+	margin: 0 0 10px 0;
 }
 
 #firstName, #lastName {
@@ -562,6 +569,262 @@ textarea {
 
 #mi {
 	width: 50px;
+}
+
+#lName {
+	width: 210px;
+	float: left;
+}
+
+/*	=	=	Address	=	=	*/
+
+#streetAdd {
+	clear: left;
+}
+
+#adrs {
+	width: 300px;
+	float: left;
+}
+
+#street {
+	width: 275px;
+}
+
+#cit {
+	width: 170px;
+	float: left;
+}
+
+#st {
+	width: 70px;
+	float: left;
+}
+
+#state {
+	width: 50px;
+}
+
+#zp {
+	width: 110px;
+	float: left;
+}
+
+#zip {
+	width: 100px;
+}
+
+/*	=	=	Contact Info	=	=	*/
+
+#contactInfo {
+	clear: left;
+}
+
+#pNumber {
+	width: 160px;
+	float: left;
+}
+
+#phone {
+	width: 140px;
+}
+
+#eAdd {
+	width: 210px;
+	float: left;
+}
+
+#appEmail {
+	width: 200px;
+}
+
+/*	=	=	=	=	Work Experience	=	=	=	*/
+
+#experience {
+	background: rgba(56, 15, 14, .1);
+	width: 930px;
+	height: 780px;
+	clear: left;
+	margin-top: 20px;
+}
+
+#experience h3 {
+	padding: 7px 0 0 10px;
+}
+
+#experience label {
+	margin: 0 5px 0 10px;
+}
+
+/*	=	=	check box	=	=	*/
+.grey {
+	color: #C2C2C2
+}
+
+#check input {
+	margin: 0 3px 0 3px;
+}
+
+/*	=	=	Position	=	=	*/
+
+.position label {
+	display: block;
+}
+
+.position input {
+	margin: 5px 0 8px 10px;
+}
+
+.emp {
+	width: 320px;
+	float: left;
+}
+
+#currentEmp, #previousEmp, #previousTwoEmp {
+	width: 300px;
+}
+
+.pos {
+	width: 320px;
+	float: left;
+}
+
+#currentPos, #previousPos, #previousTwoPos {
+	width: 300px;
+}
+
+/*	=	=	Employed Since	=	=	*/
+
+.since {
+	clear: left;
+}
+
+.since label {
+	display: block;
+}
+
+.since input {
+	margin: 5px 0 8px 10px;
+}
+
+.es {
+	width: 320px;
+	float: left;	
+}
+
+#empSince {
+	width: 260px;
+}
+
+.ef, .ep {
+	width: 220px;
+	float: left;
+}
+
+#empFrom, #empPrev, #empFromTwo, #empPrevTwo {
+	width: 175px;
+}
+
+.super {
+	width: 320px;
+	float: left;
+}
+
+#supervisor, #supervisorPrev, #supervisorPrevTwo {
+	width: 300px;
+}
+
+/*	=	=	Contact Info	=	=	*/
+
+.currentAdd, .previousAdd {
+	clear: left;
+}
+
+.currentAdd label {
+	display: block;
+}
+
+.previousAdd label {
+	display: block;
+}
+
+.currentAdd input {
+	margin: 5px 0 8px 10px;
+}
+
+.previousAdd input {
+	margin: 5px 0 8px 10px;
+}
+
+.ccity {
+	width: 245px;
+	float: left;
+}
+
+#currentCity, #prevCity, #prevCityTwo {
+	width: 225px;
+}
+
+.cst {
+	width: 70px;
+	float: left;
+}
+
+#currentSt, #previousSt, #previousStTwo {
+	width: 50px;
+}
+
+.czip {
+	width: 140px;
+	float: left;
+}
+
+#currentZip, #previousZip, #previousZipTwo {
+	width: 120px;
+}
+
+.cphone {
+	width: 180px
+	float: left;
+}
+
+#currentPhone, #previousPhone, #previousPhoneTwo {
+	width: 160px;
+}
+
+.crate label {
+	display: block;
+}
+
+#currentRate, #prevousRate, #prevousRateTwo {
+	width: 100px;
+	margin: 5px 0 8px 10px
+}
+
+#previous, #previousTwo {
+	margin-top: 20px;
+}
+
+.prevRate label {
+	display: block;
+}
+
+.prevRate {
+	width: 120px;
+	float: left;	
+}
+
+#leaving, #leavingTwo {
+	margin: 5px 8px 0 10px;
+	width: 700px;
+}
+
+/*	=	=	=	=	Military	=	=	=	=	*/
+
+#military {
+	background: rgba(56, 15, 14, .1);
+	width: 930px;
+	margin-top: 20px;
 }
 
 /*	=	=	=	=	=	=	=	=	= 	=	=	=	=	=	=	=	=	=
