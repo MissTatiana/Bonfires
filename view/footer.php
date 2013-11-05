@@ -28,13 +28,13 @@
 	<div id="social">
 		
 		<!-- facebook -->
-		<a href="https://www.facebook.com/bonfiresoviedo"><img src="images/social/facebook.png" alt="Bonfires facebook link" width="50" height="50"/></a>
+		<a href="https://www.facebook.com/bonfiresoviedo" target="_blank"><img src="images/social/facebook.png" alt="Bonfires facebook link" width="50" height="50"/></a>
 		
 		<!-- twitter -->
-		<a href="https://twitter.com/Bonfiresoviedo"><img src="images/social/twitter.png" alt="Bonfires twitter link" width="50" height="50" /></a>
+		<a href="https://twitter.com/Bonfiresoviedo" target="_blank"><img src="images/social/twitter.png" alt="Bonfires twitter link" width="50" height="50" /></a>
 		
 		<!-- youtube -->
-		<a href="http://www.youtube.com/bonfiresbarandgrill"><img src="images/social/youtube.png" alt="Bonfires youtube link" width="50" height="50"/></a>
+		<a href="http://www.youtube.com/bonfiresbarandgrill" target="_blank"><img src="images/social/youtube.png" alt="Bonfires youtube link" width="50" height="50"/></a>
 		
 	</div>
 	

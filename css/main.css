@@ -188,6 +188,11 @@ a {
 	float: left;
 	width: 440px;
 	margin-right: 20px;
+	text-align: center;
+}
+
+#contactUs {
+	text-align: center;
 }
 
 /*	=	=	=	=	Third Content	=	=	=	=	*/
