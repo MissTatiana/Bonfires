@@ -290,46 +290,77 @@
 			
 			<h3>U.S. Military Service</h3>
 			
-			<label for="served">Have you ever served in the military</label>
-			<input type="checkbox" name="served" value="yes">yes<br />
-			<input type="checkbox" name="served" value="no">no<br />
+			<div id="milCheck">
+				<label for="served">Have you ever served in the military</label>
+				<input type="checkbox" name="served" value="yes">
+				<label for="yes" class="grey">yes</label>
+				<input type="checkbox" name="served" value="no">
+				<label for="no" class="grey">no</label>
+			</div><!-- milCheck -->
 			
 			<div id="detail">
-				<label for="branch">Branch of Service:</label>
-				<input type="text" name="branch" id="branch" />
+				<div id="milBranch">
+					<label for="branch">Branch of Service:</label>
+					<input type="text" name="branch" id="branch" />
+				</div><!-- milBranch -->
 				
-				<label for="special">Technical Specialization:</label>
-				<input type="text" name="special" id="special" />
+				<div id="milSpecial">
+					<label for="special">Technical Specialization:</label>
+					<input type="text" name="special" id="special" />
+				</div><!-- milSpecials -->
 				
-				<label for="rank">Rank Attained:</label>
-				<input type="text" name="rank" id="rank" />
+				<div id="milRank">
+					<label for="rank">Rank Attained:</label>
+					<input type="text" name="rank" id="rank" />
+				</div><!-- milRank -->
 			</div><!-- detai -->l
 			
 		</div><!-- military -->
 			
 		<div id="legal">
 			
-			<label for="citizen">Are you a U.S. citizen and have the necessary documents to work in the U.S.</label>
-			<input type="checkbox" name="citizen" value="yes">yes<br />
-			<input type="checkbox" name="citizen" value="no">no<br />
+			<h3>Legal Information</h3>
 			
-			<label for="discharge">Have you ever been discharged by a company</label>
-			<input type="checkbox" name="discharge" value="yes">yes<br />
-			<input type="checkbox" name="discharge" value="no">no<br />
+			<div id="citCheck">
+				<label for="citizen">Are you a U.S. citizen or have the necessary documents to work in the U.S.</label>
+				<input type="checkbox" name="citizen" value="yes">
+				<label for="yes" class="grey">yes</label>
+				<input type="checkbox" name="citizen" value="no">
+				<label for="no" class="grey">no</label>
+			</div><!-- citCheck -->
+			<br />
 			
-			<label for="reason">If yes, please give reason for discharge:</label>
-			<input type="text" name="reason" id="reason" />
+			<div id="fireCheck">
+				<label for="discharge">Have you ever been discharged by a company</label>
+				<input type="checkbox" name="discharge" value="yes">
+				<label for="yes" class="grey">yes</label>
+				<input type="checkbox" name="discharge" value="no">
+				<label for="no" class="grey">no</label>
+			</div><!-- fireCheck -->
+
+			<div id="firedReason">
+				<label for="reason">If yes, please give reason for discharge:</label>
+				<input type="text" name="reason" id="reason" />
+			</div><!-- firedReason -->
+			<br />
 			
-			<label for="convicted">Have you ever been convicted of a crime</label>
-			<input type="checkbox" name="convicted" value="yes">yes<br />
-			<input type="checkbox" name="convicted" value="no">no<br />
-			
-			<label for="crime">If yes, please explain:</label>
-			<input type="text" name="crime" id="crime" />
+			<div id="crimeCheck">
+				<label for="convicted">Have you ever been convicted of a crime</label>
+				<input type="checkbox" name="convicted" value="yes">
+				<label for="yes" class="grey">yes</label>
+				<input type="checkbox" name="convicted" value="no">
+				<label for="no" class="grey">no</label>
+			</div><!-- crimeCheck -->
+
+			<div id="explainCrime">
+				<label for="crime">If yes, please explain:</label>
+				<input type="text" name="crime" id="crime" />
+			</div><!-- explainCrime -->
 			
 		</div><!-- legal -->
 		
-		<input type="submit" id="empSubmitBtn" value="Submit" />
+		<button id="empClear" class="btn">Clear</button>
+		<input type="submit" id="empSubmitBtn" class="btn" value="Submit" />
 		<!-- this needs to go to a thanking page php if w/redirect -->	
 			
 	</form>

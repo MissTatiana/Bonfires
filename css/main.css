@@ -824,8 +824,91 @@ textarea {
 #military {
 	background: rgba(56, 15, 14, .1);
 	width: 930px;
+	height: 140px;
 	margin-top: 20px;
 }
+
+#military h3 {
+	padding: 7px 0 0 10px;
+}
+
+#milCheck label {
+	margin: 0 5px 0 3px;
+}
+
+#milCheck input {
+	5px 0 8px 10px;
+}
+
+#milBranch label, #milSpecial label, #milRank label {
+	display: block;
+	margin: 5px 0 3px 0;
+}
+
+#milBranch {
+	width: 280px;
+	float: left;
+}
+
+#branch {
+	width: 260px
+}
+
+#milSpecial {
+	width: 280px;
+	float: left;
+}
+
+#special {
+	width: 260px
+}
+
+#milRank {
+	width: 280px;
+	float: left;
+}
+
+#rank {
+	width: 260px
+}
+
+
+/*	=	=	=	=	Legal	=	=	=	=	*/
+
+#legal {
+	background: rgba(56, 15, 14, .1);
+	width: 930px;
+	height: 250px;
+	margin-top: 20px;
+}
+
+#legal h3 {
+	padding: 7px 0 0 10px;
+}
+
+#legal label {
+	margin: 0 5px 5px 10px;
+}
+
+#firedReason label, #explainCrime label {
+	display: block;
+}
+
+#firedReason input, #explainCrime input {
+	margin: 3px 0 5px 10px;
+	width: 860px;
+}
+
+#empClear {
+	margin: 15px 20px 0 675px;
+}
+
+#empSubmitBtn {
+	margin-top: 15px;
+}
+
+
+
 
 /*	=	=	=	=	=	=	=	=	= 	=	=	=	=	=	=	=	=	=
 								Button
