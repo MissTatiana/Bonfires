@@ -6,7 +6,10 @@
 	<meta name="keywords" content="Bonfires, bonfire, bbq, barbecue, bar, drinks, specials, Ovideo, Florida, FL">
 	<meta name="description" content="Description text for SEO" />
 	<title>Bonefires in Ovideo</title>
-	<link rel="stylesheet" type="text/css" href="css/main.css">	
+	<!-- main css -->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<!-- slider css -->
+	<link rel="stylesheet" type="text/css" href="css/js-image-slider.css">
 </head>
 
 <body>
