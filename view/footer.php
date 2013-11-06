@@ -51,11 +51,8 @@
 
 <!-- slider js	-->
 <script src="js/js-image-slider.js" type="text/javascript"></script>
-<!-- date picker js -->
-<script src="js/datePicker/datepicker.js" type="text/javascript"></script>
-<script src="js/datePicker/eye.js" type="text/javascript"></script>
-<script src="js/datePicker/utils.js" type="text/javascript"></script>
-<script src="js/datePicker/layout.js?ver=1.0.2" type="text/javascript"></script>
+<!-- bootstrap date picker -->
+<script src="js/bootstrap-datepicker.js" type="text/javascript"></script>
 <!-- main script -->
 <script type="text/javascript" src="js/script.js"></script>
 	

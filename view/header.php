@@ -12,6 +12,8 @@
 	<link rel="stylesheet" type="text/css" href="css/js-image-slider.css">
 	<!-- date picker css -->
 	<link rel="stylesheet" type="text/css" href="css/datepicker.css" />
+	<!-- bootstrape datepicker css -->
+	<link rel="stylesheet" type="text/css" href="css/botostrap-datepicker.css" />
 </head>
 
 <body>
