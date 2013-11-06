@@ -45,11 +45,17 @@
 </body>
 <!-- jquery -->
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.js"></script>
-<!-- for the easy tabs -->
+<!-- easy tabs js -->
 <script src="js/jquery.hashchange.js" type="text/javascript"></script>
 <script src="js/jquery.easytabs.js" type="text/javascript"></script>
+
 <!-- slider js	-->
 <script src="js/js-image-slider.js" type="text/javascript"></script>
+<!-- date picker js -->
+<script src="js/datePicker/datepicker.js" type="text/javascript"></script>
+<script src="js/datePicker/eye.js" type="text/javascript"></script>
+<script src="js/datePicker/utils.js" type="text/javascript"></script>
+<script src="js/datePicker/layout.js?ver=1.0.2" type="text/javascript"></script>
 <!-- main script -->
 <script type="text/javascript" src="js/script.js"></script>
 	

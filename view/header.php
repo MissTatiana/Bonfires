@@ -10,6 +10,8 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<!-- slider css -->
 	<link rel="stylesheet" type="text/css" href="css/js-image-slider.css">
+	<!-- date picker css -->
+	<link rel="stylesheet" type="text/css" href="css/datepicker.css" />
 </head>
 
 <body>
