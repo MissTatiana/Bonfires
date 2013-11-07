@@ -45,12 +45,12 @@
 </body>
 <!-- jquery -->
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.js"></script>
+<!-- slider js	-->
+<script src="js/js-image-slider.js" type="text/javascript"></script>
 <!-- easy tabs js -->
 <script src="js/jquery.hashchange.js" type="text/javascript"></script>
 <script src="js/jquery.easytabs.js" type="text/javascript"></script>
-
-<!-- slider js	-->
-<script src="js/js-image-slider.js" type="text/javascript"></script>
+</script>
 <!-- bootstrap date picker -->
 <script src="js/bootstrap-datepicker.js" type="text/javascript"></script>
 <!-- main script -->

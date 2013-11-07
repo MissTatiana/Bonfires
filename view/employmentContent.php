@@ -359,7 +359,7 @@
 			
 		</div><!-- legal -->
 		
-		<button id="empClear" class="btn">Clear</button>
+		<input type="submit" id="empClear" class="btn" value="Clear" />
 		<input type="submit" id="empSubmitBtn" class="btn" value="Submit" />
 		<!-- this needs to go to a thanking page php if w/redirect -->	
 			

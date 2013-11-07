@@ -408,7 +408,7 @@ a {
 /*	=	=	=	=	Directions	=	=	=	=	*/
 
 #find {
-	background: rgba(56, 15, 14, .1);
+	background: rgba(79, 49, 49, .2);
 	width: 940px;
 	height: 340px;
 }
@@ -426,7 +426,7 @@ a {
 /*	=	=	=	=	Contact	=	=	=	=	*/
 
 #contact {
-	background: rgba(56, 15, 14, .1);
+	background: rgba(79, 49, 49, .2);
 	width: 410px;
 	height: 400px;
 	float: left;
@@ -458,7 +458,7 @@ textarea {
 /*	=	=	=	=	Feedback	=	=	=	=	*/
 
 #feedback {
-	background: rgba(56, 15, 14, .1);
+	background: rgba(79, 49, 49, .2);
 	width: 410px;
 	height: 600px;
 	margin-top: 30px;
@@ -505,7 +505,7 @@ textarea {
 /*	=	=	=	=	Work Interest	=	=	=	=	*/
 
 #workInterest {
-	background: rgba(56, 15, 14, .1);
+	background: rgba(79, 49, 49, .2);
 	width: 410px;
 	height: 175px;
 	position: absolute;
@@ -532,7 +532,7 @@ textarea {
 /*	=	=	=	=  General Info	=	=	=	=	*/
 
 #general {
-	background: rgba(56, 15, 14, .1);
+	background: rgba(79, 49, 49, .2);
 	width: 930px;
 	height: 200px;
 }
@@ -554,7 +554,7 @@ textarea {
 /*	=	=	=	=	Personal Info 	=	=	=	=	*/
 
 #personal {
-	background: rgba(56, 15, 14, .1);
+	background: rgba(79, 49, 49, .2);
 	width: 930px;
 	height: 225px;
 	margin-top: 20px;
@@ -671,7 +671,7 @@ textarea {
 /*	=	=	=	=	Work Experience	=	=	=	*/
 
 #experience {
-	background: rgba(56, 15, 14, .1);
+	background: rgba(79, 49, 49, .2);
 	width: 930px;
 	height: 780px;
 	clear: left;
@@ -684,6 +684,10 @@ textarea {
 
 #experience label {
 	margin: 0 5px 0 10px;
+}
+
+#previous {
+	padding-bottom: 10px;
 }
 
 /*	=	=	check box	=	=	*/
@@ -779,7 +783,7 @@ textarea {
 }
 
 .currentAdd input {
-	margin: 5px 0 8px 10px;
+	margin: 5px 0 0px 10px;
 }
 
 .previousAdd input {
@@ -852,7 +856,7 @@ textarea {
 /*	=	=	=	=	Military	=	=	=	=	*/
 
 #military {
-	background: rgba(56, 15, 14, .1);
+	background: rgba(79, 49, 49, .2);
 	width: 930px;
 	height: 140px;
 	margin-top: 20px;
@@ -906,7 +910,7 @@ textarea {
 /*	=	=	=	=	Legal	=	=	=	=	*/
 
 #legal {
-	background: rgba(56, 15, 14, .1);
+	background: rgba(79, 49, 49, .2);
 	width: 930px;
 	height: 250px;
 	margin-top: 20px;
