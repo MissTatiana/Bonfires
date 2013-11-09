@@ -13,7 +13,6 @@
 			<p>(407) 366 - 4073</p><br />
 			<br />
 		
-			<!-- directions should go to google maps and directions from routes -->
 			<a href="https://maps.google.com/maps?saddr=Aloma+Ave,+Oviedo,+FL&daddr=1340+Alafaya+Trail,+Oviedo,+FL&hl=en&sll=28.651194,-81.208716&sspn=0.006346,0.011212&geocode=FV2ptAEd--on-ymJ8Hf1o2_niDGn9Ddt3QbdWQ%3BFboutQEddNoo-ylzEq49dmnniDGLfbfycnY2kQ&oq=al&t=h&mra=ls&z=14" 
 			target="_blank">
 				Get directions
@@ -26,7 +25,8 @@
 			</a>
 		
 		</span><!-- directions -->
-	
+		
+		<!-- google maps -->	
 		<iframe 
 			width="425" height="260" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
 			src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=1340+Alafaya+Trail,+Oviedo,+FL&amp;aq=0&amp;oq=1340+Ala&amp;sll=28.634969,-81.240485&amp;sspn=0.050774,0.089693&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=1340+Alafaya+Trail,+Oviedo,+Florida+32765&amp;ll=28.655119,-81.209135&amp;spn=0.019583,0.036478&amp;z=14&amp;iwloc=A&amp;output=embed">

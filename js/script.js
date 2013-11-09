@@ -21,5 +21,33 @@ $("#empFromTwo").datepicker();
 $("#empPrevTwo").datepicker();
 
 
+/*	=	=	=	=	Contact Page/AJAX	=	=	=	=	*/
+
+/*	=	=	Message	=	=	*/
+$("#sendBtn").live("click", function(a) {
+	
+	console.log("sendBtn clicked");
+	a.preventDefault();
+	
+	$.ajax({
+		type: "POST",
+		url: "../model/message.php",
+		data: {
+			name: $("#name").val(),
+			email: $("#email").val(),
+			subject: $("#subject").val(),
+			message: $("#theMessage").val()
+		},
+		success: function() {
+			//alert for sending success
+		},
+		error: function() {
+			//alert for sending fail
+		}
+	});//end ajax
+	
+	
+});//end sendBtn
+
 
 });//document
