@@ -2,7 +2,7 @@
 		
 	<h2>Application for Employment</h2>
 	
-	<form action="apply">
+	<form method="post">
 		
 		<div id="general">
 			
@@ -90,9 +90,9 @@
 			<div id="current">
 				<div id="check">
 					<label for="currently">Currently Employed?</label>
-					<input type="checkbox" name="currently" id="yes" value="yes">
+					<input type="checkbox" name="currently" id="currently" value="yes">
 					<label for="yes" class="grey">yes</label>
-					<input type="checkbox" name="currently" id="no" value="no">
+					<input type="checkbox" name="currently" id="currently" value="no">
 					<label for="no" class="grey">no</label>
 				</div><!-- check -->
 				<br />
@@ -292,9 +292,9 @@
 			
 			<div id="milCheck">
 				<label for="served">Have you ever served in the military</label>
-				<input type="checkbox" name="served" value="yes">
+				<input type="checkbox" name="served" id="served" value="yes">
 				<label for="yes" class="grey">yes</label>
-				<input type="checkbox" name="served" value="no">
+				<input type="checkbox" name="served" id="served" value="no">
 				<label for="no" class="grey">no</label>
 			</div><!-- milCheck -->
 			
@@ -323,18 +323,18 @@
 			
 			<div id="citCheck">
 				<label for="citizen">Are you a U.S. citizen or have the necessary documents to work in the U.S.</label>
-				<input type="checkbox" name="citizen" value="yes">
+				<input type="checkbox" name="citizen" id="citizen" value="yes">
 				<label for="yes" class="grey">yes</label>
-				<input type="checkbox" name="citizen" value="no">
+				<input type="checkbox" name="citizen" id="citizen" value="no">
 				<label for="no" class="grey">no</label>
 			</div><!-- citCheck -->
 			<br />
 			
 			<div id="fireCheck">
 				<label for="discharge">Have you ever been discharged by a company</label>
-				<input type="checkbox" name="discharge" value="yes">
+				<input type="checkbox" name="discharge" id="discharge" value="yes">
 				<label for="yes" class="grey">yes</label>
-				<input type="checkbox" name="discharge" value="no">
+				<input type="checkbox" name="discharge" id="discharge" value="no">
 				<label for="no" class="grey">no</label>
 			</div><!-- fireCheck -->
 
@@ -346,9 +346,9 @@
 			
 			<div id="crimeCheck">
 				<label for="convicted">Have you ever been convicted of a crime</label>
-				<input type="checkbox" name="convicted" value="yes">
+				<input type="checkbox" name="convicted" id="convicted" value="yes">
 				<label for="yes" class="grey">yes</label>
-				<input type="checkbox" name="convicted" value="no">
+				<input type="checkbox" name="convicted" id="convicted" value="no">
 				<label for="no" class="grey">no</label>
 			</div><!-- crimeCheck -->
 
@@ -359,7 +359,7 @@
 			
 		</div><!-- legal -->
 		
-		<input type="submit" id="empClear" class="btn" value="Clear" />
+		<input type="reset" id="empClear" class="btn" value="Clear" />
 		<input type="submit" id="empSubmitBtn" class="btn" value="Submit" />
 		<!-- this needs to go to a thanking page php if w/redirect -->	
 			

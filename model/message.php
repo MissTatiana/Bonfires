@@ -1,7 +1,7 @@
 <?php 
 
 //variables passed from AJAX
-//are ['stuff'] from the ajax variabls or the id of the inputs
+//are ['stuff'] from the ajax variabls or the name of the inputs
 $name = $_POST['name'];
 $email = $_POST['email'];
 $subject = $_POST['subject'];

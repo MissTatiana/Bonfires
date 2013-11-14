@@ -41,7 +41,7 @@
 		<h3>Send Us a Message</h3>
 		
 		<!-- does this need the mailto in the action? -->
-		<form id="message" action="message">
+		<form id="message" method="post">
 		
 			<label for="name">*Name:</label><br />
 			<input type="text" name="name" id="name" class="input" required="required" /><br />
@@ -50,14 +50,16 @@
 			<input type="email" name="email" id="email" class="input" required="required" placeholder="example@email.com" /><br />
 			
 			<label for="subject">*Subject</label><br />
-			<select name="about">
+			<!-- <input type="text" name="subject" id="subject" class="input" required="required" /><br /> -->
+			<select name="about" id="aboutSelect">
 				<option>Contacting about</option>
 				<option value="event">Event</option>
 				<option value="complaint">Complaint</option>
 				<option value="improvements">Improvements</option>
 				<option value="employment">Employment</option>
 				<option value="other">Other</option>
-			</select><br />
+			</select>
+			<br />
 			
 			<label for="theMessage">*Message:</label><br />
 			<textarea name="theMessage" id="theMessage"></textarea><br />
@@ -86,6 +88,7 @@
 				<input type="radio" id="food4" class="radio" name="food" value="4">
 				<input type="radio" id="food5" class="radio" name="food" value="5">
 				<br />
+				<!-- checked for jquery value -->
 				<label for="food1">1</label>
 				<label for="food2">2</label>
 				<label for="food3">3</label>
