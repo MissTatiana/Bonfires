@@ -3,7 +3,8 @@
 	
 <head>
 	<meta charset="UTF-8" />
-	<meta name="keywords" content="Bonfires, bonfire, bbq, barbecue, bar, drinks, specials, Ovideo, Florida, FL">
+	<meta name="keywords" content="Bonfires, bonfire, bbq, barbecue, bar, drinks, specials, Ovideo, Florida, FL, sports, football, football night
+	baseball">
 	<meta name="description" content="Description text for SEO" />
 	<title>Bonefires in Ovideo</title>
 	<!-- main css -->
