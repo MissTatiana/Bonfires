@@ -6,7 +6,7 @@
 			<li><a href="?action=about">About Us</a></li>
 			<li><a href="?action=menu">Menu</a></li>
 			<li><a href="?action=specials">Events</a></li>
-			<li><a href="?action=photos">Photo Gallery</a></li>
+			<li><a href="?action=photo">Photo Gallery</a></li>
 			<li><a href="?action=contact">Contact</a></li>
 		</ul><!-- footerNav -->
 	</div><!-- foot -->
